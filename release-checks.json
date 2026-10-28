@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "status": "passed_with_documented_limits",
+  "date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "environment": "Windows x64, Windows PowerShell 5.1, pristine CPython 3.12.10 embeddable, Microsoft Edge",
+  "checks": {
+    "public_runtime_unit_tests": {
+      "passed": 22,
+      "total": 22
+    },
+    "bootstrap_unit_tests": {
+      "passed": 7,
+      "total": 7
+    },
+    "packaged_regressions": {
+      "passed": 63,
+      "total": 63
+    },
+    "independent_install_and_cli_acceptance": {
+      "passed": 36,
+      "total": 36
+    },
+    "visible_window_and_ui_acceptance": {
+      "passed": 6,
+      "total": 6
+    },
+    "fresh_official_python_download_sha256_and_reuse": "passed",
+    "skill_frontmatter_validator": "passed",
+    "core_model_and_edit_ops_unchanged": true,
+    "ui_export_matches_bundled_compile_va_bytes": true,
+    "all_test_services_stopped": true
+  },
+  "gui_details": {
+    "period_ps": 800,
+    "phi1_drag_from_ps": 100,
+    "phi1_drag_to_ps": 120,
+    "exact_input_ps": 125,
+    "undo_restored_final_ps": 120,
+    "phi2_unchanged": true,
+    "final_revision": 6,
+    "console_errors": 0
+  },
+  "resolved_findings": [
+    "Use UTF-8 for embedded Python JSON output.",
+    "Use the Win32 show-window constant supported by standard Python.",
+    "Use .NET SHA256 rather than depending on PowerShell module autoloading.",
+    "Validate GUI view metadata before launching a candidate project."
+  ],
+  "limitations": [
+    "A pristine runtime and relocated installation were tested on the development Windows host, not a separate clean computer.",
+    "Windows paths around 280 characters failed where OS long-path support was unavailable; use a short writable extraction/session path.",
+    "macOS and Linux GUI support was not tested.",
+    "No Spectre simulation was rerun for this packaging task; historical simulation coverage is described separately.",
+    "Test counts describe overlapping layers and must not be summed as independent end-to-end cases."
+  ]
+}

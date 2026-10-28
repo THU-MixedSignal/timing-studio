@@ -1,0 +1,76 @@
+// Timing Wave Studio Desktop — generated Verilog-A stimulus.
+// Edge positions are transition START times, not threshold crossings.
+// Short tracks hold to the macroperiod; finite runs hold final levels.
+// Finite runs ignore later timer events; periodic timers keep waking.
+// Waveform edges use event schedules, never dense samples.
+// time_scale scales every event time and the rise/fall durations.
+// Connect vref to the intended voltage reference (usually ground).
+// Transient/open-loop use. PSS/PAC and feedback are not validated.
+`include "constants.vams"
+`include "disciplines.vams"
+
+module high_speed_800ps(phi1, phi2, vref);
+  output phi1, phi2;
+  input vref;
+  electrical phi1, phi2, vref;
+
+  parameter real vlow = 0.0;
+  parameter real vhigh = 1.0 from (vlow:inf);
+  parameter real trise = 10000e-15 from (0:inf);
+  parameter real tfall = 15000e-15 from (0:inf);
+  parameter real time_scale = 1.0 from (0:inf);
+  parameter integer cycles = 0 from [0:1000000000]; // 0 = forever
+
+  integer _tw_level_0;
+  integer _tw_count_0;
+  integer _tw_count_1;
+  integer _tw_level_1;
+  integer _tw_count_2;
+  integer _tw_count_3;
+
+  analog begin
+    @(initial_step) begin
+      _tw_level_0 = 0; // phi1
+      _tw_level_1 = 0; // phi2
+      _tw_count_0 = 0;
+      _tw_count_1 = 0;
+      _tw_count_2 = 0;
+      _tw_count_3 = 0;
+    end
+
+    // phi1 rise at 100 ps
+    @(timer(100000e-15 * time_scale, 800000e-15 * time_scale)) begin
+      if ((cycles == 0) || (_tw_count_0 < cycles)) begin
+        _tw_level_0 = 1;
+        if (cycles > 0) _tw_count_0 = _tw_count_0 + 1;
+      end
+    end
+
+    // phi1 fall at 350 ps
+    @(timer(350000e-15 * time_scale, 800000e-15 * time_scale)) begin
+      if ((cycles == 0) || (_tw_count_1 < cycles)) begin
+        _tw_level_0 = 0;
+        if (cycles > 0) _tw_count_1 = _tw_count_1 + 1;
+      end
+    end
+
+    // phi2 rise at 450 ps
+    @(timer(450000e-15 * time_scale, 800000e-15 * time_scale)) begin
+      if ((cycles == 0) || (_tw_count_2 < cycles)) begin
+        _tw_level_1 = 1;
+        if (cycles > 0) _tw_count_2 = _tw_count_2 + 1;
+      end
+    end
+
+    // phi2 fall at 700 ps
+    @(timer(700000e-15 * time_scale, 800000e-15 * time_scale)) begin
+      if ((cycles == 0) || (_tw_count_3 < cycles)) begin
+        _tw_level_1 = 0;
+        if (cycles > 0) _tw_count_3 = _tw_count_3 + 1;
+      end
+    end
+
+    V(phi1, vref) <+ transition(_tw_level_0 ? vhigh : vlow, 0.0, trise * time_scale, tfall * time_scale);
+    V(phi2, vref) <+ transition(_tw_level_1 ? vhigh : vlow, 0.0, trise * time_scale, tfall * time_scale);
+  end
+endmodule

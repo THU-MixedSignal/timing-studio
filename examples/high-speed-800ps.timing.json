@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "module_name": "high_speed_800ps",
+  "unit": "ps",
+  "vlow": 0.0,
+  "vhigh": 1.0,
+  "rise_fs": 10000,
+  "fall_fs": 15000,
+  "cycles": 0,
+  "period_fs": 800000,
+  "signals": [
+    {
+      "id": "phi1",
+      "name": "phi1",
+      "items": [
+        {
+          "id": "phi1_0",
+          "type": "segment",
+          "duration_fs": 100000,
+          "level": 0
+        },
+        {
+          "id": "phi1_1",
+          "type": "segment",
+          "duration_fs": 250000,
+          "level": 1
+        },
+        {
+          "id": "phi1_2",
+          "type": "segment",
+          "duration_fs": 450000,
+          "level": 0
+        }
+      ]
+    },
+    {
+      "id": "phi2",
+      "name": "phi2",
+      "items": [
+        {
+          "id": "phi2_0",
+          "type": "segment",
+          "duration_fs": 450000,
+          "level": 0
+        },
+        {
+          "id": "phi2_1",
+          "type": "segment",
+          "duration_fs": 250000,
+          "level": 1
+        },
+        {
+          "id": "phi2_2",
+          "type": "segment",
+          "duration_fs": 100000,
+          "level": 0
+        }
+      ]
+    }
+  ],
+  "view": {
+    "row_height": 64,
+    "signal_order": [
+      "phi1",
+      "phi2"
+    ]
+  },
+  "description": "800ps周期；phi1高100–350ps，phi2高450–700ps；升10ps降15ps。"
+}

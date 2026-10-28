@@ -1,0 +1,4 @@
+interface:
+  display_name: "时序工坊"
+  short_description: "用自然语言生成多路时序，打开独立窗口微调并导出 Verilog-A"
+  default_prompt: "使用 $timing-studio 根据我的描述生成时序，打开窗口让我微调，然后读取修改并导出 VA。"

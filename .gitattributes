@@ -1,0 +1,2 @@
+# Package hashes are byte-level; keep scripts and manifests stable across clones.
+* -text

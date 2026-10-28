@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>时序工坊 · 协作窗口</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">⌁</span><div><h1>时序工坊</h1><span class="edition">协作窗口 · 预览版</span></div></div>
+    <div class="session"><span id="session-name">正在连接本机工程…</span><span id="save-status" class="save-status" role="status">连接中</span></div>
+    <div class="top-actions"><button id="undo" title="撤销 · Ctrl+Z" disabled>↶ 撤销</button><button id="redo" title="重做 · Ctrl+Shift+Z" disabled>↷</button><button id="settings">工程设置</button><button id="export" class="primary">导出 VA</button></div>
+  </header>
+  <div id="alert" class="alert" hidden role="alert"><span id="alert-text"></span><button id="alert-dismiss" aria-label="关闭提示">×</button></div>
+  <section class="project-strip"><span class="eyebrow">当前时序</span><strong id="module-name">—</strong><span id="project-meta">—</span><span id="revision" class="revision">—</span></section>
+  <main class="workspace">
+    <section class="editor" aria-label="时序编辑区">
+      <div class="toolbar">
+        <div class="mode-switch" role="group" aria-label="编辑方式"><button data-mode="select" class="active" title="拖动边沿，双击区间翻转电平">选择 / 拖动</button><button data-mode="high">画高</button><button data-mode="low">画低</button></div>
+        <span class="tool-divider"></span>
+        <label class="compact">吸附 <input id="snap" value="1n" aria-label="鼠标吸附步长" spellcheck="false"></label>
+        <label class="compact row-control">行高 <input id="row-height" type="range" min="36" max="128" value="64"><output id="row-value">64</output></label>
+        <div class="zoom-controls"><button id="zoom-out" title="缩小时间轴">−</button><button id="zoom-fit" title="显示完整大周期">适合</button><button id="zoom-in" title="放大时间轴">＋</button><output id="zoom-level" class="zoom-level" aria-label="时间轴放大倍率">1×</output></div>
+      </div>
+      <div class="axis-caption"><span id="signal-count">信号</span><span id="timeline-hint">一个大周期 · 边沿位置表示跳变开始时刻</span><button id="add-signal" class="text-button">＋ 添加信号</button></div>
+      <div id="timeline-scroll" class="timeline-scroll" tabindex="0" aria-label="时序画布，滚轮上下浏览，Ctrl 加滚轮缩放">
+        <div id="timeline-content" class="timeline-content"><div class="empty-state">正在读取时序…</div></div>
+      </div>
+      <div class="selection-bar"><span id="selection-info">选择边沿后可精确输入时刻；双击一段波形可翻转高低电平。</span><button id="edit-edge" class="text-button" disabled>精确修改</button><span id="cursor-time">—</span></div>
+    </section>
+    <aside class="relations" aria-label="边沿关系">
+      <div class="panel-title"><div><h2>边沿关系</h2><p>查看同时发生与相邻边沿的先后</p></div><span class="panel-symbol">⋮</span></div>
+      <div class="relation-controls"><label>接近阈值<input id="threshold" value="1n" spellcheck="false"></label><label>信号范围<select id="signal-filter"><option value="">全部信号</option></select></label><label>关系类型<select id="kind-filter"><option value="all">全部关系</option><option value="simultaneous">同时发生</option><option value="near">距离接近</option></select></label></div>
+      <label class="guide-toggle"><input id="show-guides" type="checkbox" checked> 在图上标注选中的关系</label>
+      <div id="relation-summary" class="relation-summary">正在分析…</div>
+      <div id="relation-list" class="relation-list"></div>
+      <p class="relation-note">提示用于核对时序，不自动判断电路错误。跨周期关系会单独标记。</p>
+    </aside>
+  </main>
+  <section class="bottom-panels"><details id="va-panel"><summary>Verilog-A 预览 <span id="va-info">按当前工程生成</span></summary><pre id="va-code">展开后读取当前代码。</pre></details><details><summary>操作说明 <span>拖动 · 精确时间 · 与聊天继续协作</span></summary><div class="help-content"><p><b>改波形：</b>拖动高低电平之间的竖边；“画高 / 画低”可拖出区间。同电平相遇时会合并。双击区间翻转电平，双击信号名可重命名。</p><p><b>改时间：</b>选择边沿后点“精确修改”，输入 <code>1n</code>、<code>200p</code> 等时间。吸附仅作用于鼠标操作；按住 Alt 临时关闭吸附。</p><p><b>看更多：</b>调低行高，使用信号名右侧的上下箭头排序；Ctrl＋滚轮缩放，Shift＋滚轮横向移动。“适合”显示一个完整大周期。显示排序不会改变 VA 端口顺序。</p><p><b>继续协作：</b>每次松开鼠标后自动保存。看到“已保存”后，在聊天里告诉我“改好了”及下一步要求；窗口会接收后续工程修改。导出 VA 会同时保存一份工程快照。</p><p><b>当前范围：</b>高低电平、固定开环时序；图中展示设定电平和边沿开始时刻，实际模拟波形受 rise / fall 和负载影响。</p></div></details></section>
+  <footer><span class="local-dot"></span><span id="footer-status">文件保存在本机 · 修改自动保存</span><span class="footer-hint">微调完成后，在聊天里告诉我“改好了”</span><button id="done">完成微调</button></footer>
+  <dialog id="edit-dialog"><form id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button type="button" id="dialog-close" class="icon-button" aria-label="关闭">×</button></div><div id="dialog-fields"></div><p id="dialog-error" class="field-error" role="alert"></p><div class="dialog-actions"><button type="button" id="dialog-cancel">取消</button><button type="submit" id="dialog-submit" class="primary">保存修改</button></div></form></dialog>
+  <dialog id="conflict-dialog"><div class="dialog-heading"><h2>需要先处理未保存的修改</h2></div><p id="conflict-message"></p><p class="muted">已在这个窗口保留修改前的工程和本次操作。不会自动覆盖另一份修改。</p><textarea id="conflict-draft" readonly aria-label="保留的本地操作"></textarea><div class="dialog-actions"><button id="copy-draft">复制保留内容</button><button id="reload-state" class="primary">放弃本次操作，读取最新版本</button></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

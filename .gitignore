@@ -1,0 +1,12 @@
+**/.runtime/
+**/__pycache__/
+*.py[cod]
+.cache/
+data/
+.local-window/
+*.log
+*.zip
+.env
+.env.*
+connection.json
+**/browser-data/

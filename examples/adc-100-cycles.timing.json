@@ -1,0 +1,3745 @@
+{
+  "version": 2,
+  "module_name": "timing_collaboration_demo",
+  "unit": "ns",
+  "period_fs": 10000000000,
+  "rise_fs": 200000,
+  "fall_fs": 200000,
+  "vlow": 0.0,
+  "vhigh": 1.0,
+  "cycles": 0,
+  "signals": [
+    {
+      "id": "reset",
+      "name": "reset",
+      "color": "#d97657",
+      "items": [
+        {
+          "id": "reset_0",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 100000000
+        },
+        {
+          "id": "reset_1",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 9900000000
+        }
+      ]
+    },
+    {
+      "id": "clk",
+      "name": "clk",
+      "color": "#4675cd",
+      "items": [
+        {
+          "id": "clk_0",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 200000000
+        },
+        {
+          "id": "clk_1",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_2",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_3",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_4",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_5",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_6",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_7",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_8",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_9",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_10",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_11",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_12",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_13",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_14",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_15",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_16",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_17",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_18",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_19",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_20",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_21",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_22",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_23",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_24",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_25",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_26",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_27",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_28",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_29",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_30",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_31",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_32",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_33",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_34",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_35",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_36",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_37",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_38",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_39",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_40",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_41",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_42",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_43",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_44",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_45",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_46",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_47",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_48",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_49",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_50",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_51",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_52",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_53",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_54",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_55",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_56",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_57",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_58",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_59",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_60",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_61",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_62",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_63",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_64",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_65",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_66",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_67",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_68",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_69",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_70",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_71",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_72",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_73",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_74",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_75",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_76",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_77",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_78",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_79",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_80",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_81",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_82",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_83",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_84",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_85",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_86",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_87",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_88",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_89",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_90",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_91",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_92",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_93",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_94",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_95",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_96",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_97",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_98",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_99",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_100",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_101",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_102",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_103",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_104",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_105",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_106",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_107",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_108",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_109",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_110",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_111",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_112",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_113",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_114",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_115",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_116",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_117",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_118",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_119",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_120",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_121",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_122",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_123",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_124",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_125",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_126",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_127",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_128",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_129",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_130",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_131",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_132",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_133",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_134",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_135",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_136",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_137",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_138",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_139",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_140",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_141",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_142",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_143",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_144",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_145",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_146",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_147",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_148",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_149",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_150",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_151",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_152",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_153",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_154",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_155",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_156",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_157",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_158",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_159",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_160",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_161",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_162",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_163",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_164",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_165",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_166",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_167",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_168",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_169",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_170",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_171",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_172",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_173",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_174",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_175",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_176",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_177",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_178",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_179",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_180",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_181",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_182",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_183",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_184",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_185",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_186",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_187",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_188",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_189",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_190",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_191",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_192",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_193",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_194",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_195",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_196",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_197",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_198",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "clk_199",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "clk_200",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 4830000000
+        }
+      ]
+    },
+    {
+      "id": "phi1",
+      "name": "phi1",
+      "color": "#18988b",
+      "items": [
+        {
+          "id": "phi1_0",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 200000000
+        },
+        {
+          "id": "phi1_1",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_2",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_3",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_4",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_5",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_6",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_7",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_8",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_9",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_10",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_11",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_12",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_13",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_14",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_15",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_16",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_17",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_18",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_19",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_20",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_21",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_22",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_23",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_24",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_25",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_26",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_27",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_28",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_29",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_30",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_31",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_32",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_33",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_34",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_35",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_36",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_37",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_38",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_39",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_40",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_41",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_42",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_43",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_44",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_45",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_46",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_47",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_48",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_49",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_50",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_51",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_52",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_53",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_54",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_55",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_56",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_57",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_58",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_59",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_60",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_61",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_62",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_63",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_64",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_65",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_66",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_67",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_68",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_69",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_70",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_71",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_72",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_73",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_74",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_75",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_76",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_77",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_78",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_79",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_80",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_81",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_82",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_83",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_84",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_85",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_86",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_87",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_88",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_89",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_90",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_91",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_92",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_93",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_94",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_95",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_96",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_97",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_98",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_99",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_100",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_101",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_102",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_103",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_104",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_105",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_106",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_107",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_108",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_109",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_110",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_111",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_112",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_113",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_114",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_115",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_116",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_117",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_118",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_119",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_120",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_121",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_122",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_123",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_124",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_125",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_126",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_127",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_128",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_129",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_130",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_131",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_132",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_133",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_134",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_135",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_136",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_137",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_138",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_139",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_140",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_141",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_142",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_143",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_144",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_145",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_146",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_147",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_148",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_149",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_150",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_151",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_152",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_153",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_154",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_155",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_156",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_157",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_158",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_159",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_160",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_161",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_162",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_163",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_164",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_165",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_166",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_167",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_168",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_169",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_170",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_171",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_172",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_173",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_174",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_175",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_176",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_177",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_178",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_179",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_180",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_181",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_182",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_183",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_184",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_185",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_186",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_187",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_188",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_189",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_190",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_191",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_192",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_193",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_194",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_195",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_196",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_197",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_198",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 30000000
+        },
+        {
+          "id": "phi1_199",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 20000000
+        },
+        {
+          "id": "phi1_200",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 4830000000
+        }
+      ]
+    },
+    {
+      "id": "phi2",
+      "name": "phi2",
+      "color": "#8d68bf",
+      "items": [
+        {
+          "id": "phi2_0",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 220200000
+        },
+        {
+          "id": "phi2_1",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_2",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_3",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_4",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_5",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_6",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_7",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_8",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_9",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_10",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_11",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_12",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_13",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_14",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_15",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_16",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_17",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_18",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_19",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_20",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_21",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_22",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_23",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_24",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_25",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_26",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_27",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_28",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_29",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_30",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_31",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_32",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_33",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_34",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_35",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_36",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_37",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_38",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_39",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_40",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_41",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_42",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_43",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_44",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_45",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_46",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_47",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_48",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_49",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_50",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_51",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_52",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_53",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_54",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_55",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_56",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_57",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_58",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_59",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_60",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_61",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_62",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_63",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_64",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_65",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_66",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_67",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_68",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_69",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_70",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_71",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_72",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_73",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_74",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_75",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_76",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_77",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_78",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_79",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_80",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_81",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_82",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_83",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_84",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_85",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_86",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_87",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_88",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_89",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_90",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_91",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_92",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_93",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_94",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_95",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_96",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_97",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_98",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_99",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_100",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_101",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_102",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_103",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_104",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_105",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_106",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_107",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_108",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_109",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_110",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_111",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_112",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_113",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_114",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_115",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_116",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_117",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_118",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_119",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_120",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_121",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_122",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_123",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_124",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_125",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_126",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_127",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_128",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_129",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_130",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_131",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_132",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_133",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_134",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_135",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_136",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_137",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_138",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_139",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_140",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_141",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_142",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_143",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_144",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_145",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_146",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_147",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_148",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_149",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_150",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_151",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_152",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_153",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_154",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_155",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_156",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_157",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_158",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_159",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_160",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_161",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_162",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_163",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_164",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_165",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_166",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_167",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_168",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_169",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_170",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_171",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_172",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_173",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_174",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_175",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_176",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_177",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_178",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_179",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_180",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_181",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_182",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_183",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_184",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_185",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_186",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_187",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_188",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_189",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_190",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_191",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_192",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_193",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_194",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_195",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_196",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_197",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_198",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 20400000
+        },
+        {
+          "id": "phi2_199",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 29600000
+        },
+        {
+          "id": "phi2_200",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 4800200000
+        }
+      ]
+    },
+    {
+      "id": "sample",
+      "name": "sample",
+      "color": "#bd8d28",
+      "items": [
+        {
+          "id": "sample_0",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 600000000
+        },
+        {
+          "id": "sample_1",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 400000000
+        },
+        {
+          "id": "sample_2",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 400000000
+        },
+        {
+          "id": "sample_3",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 400000000
+        },
+        {
+          "id": "sample_4",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 8200000000
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "name": "done",
+      "color": "#b7659a",
+      "items": [
+        {
+          "id": "done_0",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 5220000000
+        },
+        {
+          "id": "done_1",
+          "type": "segment",
+          "level": 1,
+          "duration_fs": 100000000
+        },
+        {
+          "id": "done_2",
+          "type": "segment",
+          "level": 0,
+          "duration_fs": 4680000000
+        }
+      ]
+    }
+  ],
+  "view": {
+    "row_height": 64,
+    "signal_order": [
+      "reset",
+      "clk",
+      "phi1",
+      "phi2",
+      "sample",
+      "done"
+    ]
+  },
+  "description": "10us 大周期；复位100ns；从200ns起重复100次50ns时钟；phi1/phi2设定边沿间隔200ps；sample两段高电平可试拖合并。"
+}

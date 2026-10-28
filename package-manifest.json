@@ -1,0 +1,222 @@
+{
+  "version": "0.1.0",
+  "upstream_snapshot": "34b7c3a834cbef3673a1d964b0456e5f4cc0e8d9",
+  "core_model_sha256": "f51eac87eaf5625e4a0539ed7aeb708a397302e64aaac74f783f7084237c75ca",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 90,
+      "sha256": "d1af7d00867f5f3cac5f0aa58ba99c1d5fc0ab1a409a289e574a03bc26e6fdc2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 125,
+      "sha256": "6f47abd65ad1b6ee9652f8a89976c3d5bb1b94a2036d7a85afff1f95cafeafab"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1735,
+      "sha256": "5193cfb9f5fc8a8e7c26ea1f9d8f6e86241f0d437cc6b56db4df2efdca2b7a81"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 1341,
+      "sha256": "a567a0b8f4070a28478c112673eb2cd314c6becd7928772629027d39b9b2a3a8"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1770,
+      "sha256": "c1ccf6b970cbbc9a51edaf45ba0e3f8aa35dad7363a628335ed404b49863ae5f"
+    },
+    {
+      "path": "examples/adc-100-cycles.timing.json",
+      "bytes": 86535,
+      "sha256": "1dd8a015ca000563db0b775c9d649792f9b2e0062e1820ada18a462913a1bb42"
+    },
+    {
+      "path": "examples/adc-100-cycles.va",
+      "bytes": 201072,
+      "sha256": "6d5672feb807ee39aebb17523e635f5b31f6fa7d912a022df9d01172dd7a2591"
+    },
+    {
+      "path": "examples/high-speed-800ps.timing.json",
+      "bytes": 1395,
+      "sha256": "751ba6d164446603c53d5e476e6b2328f59f15adfc24c23cf0215f66c3b99ef3"
+    },
+    {
+      "path": "examples/high-speed-800ps.va",
+      "bytes": 2650,
+      "sha256": "de6a488e214723bce43955a9da57a046e217c77ef1825b6545579d73ded6c395"
+    },
+    {
+      "path": "Install Skill.cmd",
+      "bytes": 234,
+      "sha256": "489d7246528de84ce2c6ee6f9e402ccf18c6216975afabd86462687403ec3903"
+    },
+    {
+      "path": "install-skill.ps1",
+      "bytes": 2944,
+      "sha256": "2d64040664d647d4b2596fa5dd4ebf18c71d5883288ab4bd2fea0f36536caf69"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "c6e44a7fb8efd9270ecac966da37601eeb8ed0b95e56770093dbc29d4bfa1d6c"
+    },
+    {
+      "path": "Open Timing Studio.cmd",
+      "bytes": 147,
+      "sha256": "a23433110376fa9be2e615e5c1f8d559d2576f7e8653953884f559b816bb10a2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6226,
+      "sha256": "2f3393f3fa1ea22b0ab0aa290d6e12f66517fd26a537245c6a8d9eddaeaa4d17"
+    },
+    {
+      "path": "refresh-manifests.py",
+      "bytes": 1002,
+      "sha256": "ed5f24f2886a9a9d35ddaf22d5b825f5b29f9bff84a491f59f6542e8d9367595"
+    },
+    {
+      "path": "release-checks.json",
+      "bytes": 2078,
+      "sha256": "28b866d13283e35d33fe8c0d19b3bc3eb0e53c2404bd32c844e2cd84a1945ffc"
+    },
+    {
+      "path": "run-tests.py",
+      "bytes": 442,
+      "sha256": "a8e07ab8cafd7eec777a68923fa860350ae00d91797e318c6c6ee89f4e712f59"
+    },
+    {
+      "path": "skills/timing-studio/agents/openai.yaml",
+      "bytes": 285,
+      "sha256": "f89029c905ae2c11a426d7aaca4218531b162980b481d32b08cbfd16aed7c14b"
+    },
+    {
+      "path": "skills/timing-studio/install-manifest.json",
+      "bytes": 3272,
+      "sha256": "932b4bf064ce7f4b599baff2a14df6406d2d23ca92db2e9b3d2b33da0cb76eec"
+    },
+    {
+      "path": "skills/timing-studio/LICENSE",
+      "bytes": 1083,
+      "sha256": "c6e44a7fb8efd9270ecac966da37601eeb8ed0b95e56770093dbc29d4bfa1d6c"
+    },
+    {
+      "path": "skills/timing-studio/references/project-format.md",
+      "bytes": 3348,
+      "sha256": "a32fc74c19aafdfc17729493195ed17842d03ca52261c2d3d4359545ac260c25"
+    },
+    {
+      "path": "skills/timing-studio/references/session-workflow.md",
+      "bytes": 3942,
+      "sha256": "4e30260d30c3a894be1557a5ef7c21d7278a093f31383cc6b8d7426c0e5e40bb"
+    },
+    {
+      "path": "skills/timing-studio/scripts/bootstrap.ps1",
+      "bytes": 8304,
+      "sha256": "0b886727a2cdcc97d5c9a08e1ec8abab5d0f606f98be2dd0dc895a02e8a1353d"
+    },
+    {
+      "path": "skills/timing-studio/scripts/run.cmd",
+      "bytes": 203,
+      "sha256": "307f23fdd6d2e2bc88309d4c4e253a999b917b7f2269a5e18dec39004708236b"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/edit_ops.py",
+      "bytes": 4374,
+      "sha256": "1d13edfc24e7f42ac34449c73f6e1806f272a772ca99aa7ac667a9044d43fd4f"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/__init__.py",
+      "bytes": 78,
+      "sha256": "406af9df5601dc1f1e98b3bff4dede82d58dc4583acccd041d7ea5c5c8414fe3"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/demo.py",
+      "bytes": 1882,
+      "sha256": "10dde640140ce8f1564cef07061c4371f0fb4a03c501ecc436588069a5193898"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/launch.py",
+      "bytes": 6296,
+      "sha256": "e7436e829f1e4b3d7d377f8e0cc766d89a107a5a8ff0f1d60cbb428e9bdc417b"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/server.py",
+      "bytes": 9174,
+      "sha256": "48ab483f5d112204158e9cb006cd73c92665776d2555ee85fd10848d9aefedeb"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/session_cli.py",
+      "bytes": 2545,
+      "sha256": "18544ff7cdd9d6761496d87720a399e9e466815264ae1e41ccf9ef8422ddc883"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/static/app.css",
+      "bytes": 12011,
+      "sha256": "09374b379d29cf9be4c6ce402e85b7131b1d0877f414f2137eddd2c7fc0a2321"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/static/app.js",
+      "bytes": 40578,
+      "sha256": "7b426c215a7b358e3d3bf442c3a262c2e5cd00d29f7fad098d47dbeb258bdb34"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/static/index.html",
+      "bytes": 6815,
+      "sha256": "9d1bcba9b002920a29ae2bdae654dd65786fcb8511893a787748f9781ad4ae33"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/local_window/store.py",
+      "bytes": 12203,
+      "sha256": "3706a72dd9e582bbea5460e19eccbb902c3418d3c9cedc3ced08edee1ddba007"
+    },
+    {
+      "path": "skills/timing-studio/scripts/runtime/model.py",
+      "bytes": 33216,
+      "sha256": "f51eac87eaf5625e4a0539ed7aeb708a397302e64aaac74f783f7084237c75ca"
+    },
+    {
+      "path": "skills/timing-studio/scripts/timing_studio.py",
+      "bytes": 8505,
+      "sha256": "e1f7e9c728f973ace634a1393488d0aa70962f1e168e34fb5db2bd0de54d84e9"
+    },
+    {
+      "path": "skills/timing-studio/SKILL.md",
+      "bytes": 4466,
+      "sha256": "df6875c4657bf0c5fdfd1963395e2595b1c331ff49f1b3bc9f30b9307a168f0f"
+    },
+    {
+      "path": "tests/test_distribution.py",
+      "bytes": 3381,
+      "sha256": "e8dd506a244de67846d1b529a21001acb8971cfa4971d4c6d2abbf5e609d3e16"
+    },
+    {
+      "path": "tests/test_lite_model.py",
+      "bytes": 8753,
+      "sha256": "8ef5aa66eb881d19d71d60404b318ae1dc030626c8386a0747de498202363d82"
+    },
+    {
+      "path": "tests/test_local_window.py",
+      "bytes": 24136,
+      "sha256": "5c68ea9fed97bf4474d353b616b1c0e117eedcf93bea659e3241d1044146f56d"
+    },
+    {
+      "path": "tests/test_model.py",
+      "bytes": 14999,
+      "sha256": "7f09ff604a02bbb51c991581b7156b2cf4170704533c2c186a8cfcf46c3233a2"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1256,
+      "sha256": "7973a983e8757c566dfccca4706ad5c60e61487321b433d612fcbddc9928f179"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 7,
+      "sha256": "3d097c315a1c543040f548da4c7051265e94c77211a2411ced1d4621344270de"
+    }
+  ]
+}
